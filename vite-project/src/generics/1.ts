@@ -16,4 +16,4 @@ interface IMyData {
 
 const myData: IMyData = await fetchData<IMyData>('https://example.com/data');
 
-console.log(myData);
+export default myData;
